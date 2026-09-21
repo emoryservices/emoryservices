@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Emory Services connects residential design, real estate, prepared meals, notary services, and practical technology help in one place."
+    />
+    <meta name="theme-color" content="#08162f" />
+    <title>Emory Services | Practical help, all in one place</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#services">Skip to services</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Emory Services home">
+        <span class="brand-mark" aria-hidden="true"><span>E</span><span>S</span></span>
+        <span class="brand-copy">
+          <strong>Emory</strong>
+          <span>Services</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#finder">Find a service</a>
+        <a href="#services">All services</a>
+      </nav>
+      <a class="header-action" href="#finder">Choose what you need</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> A family of practical services</p>
+          <h1 id="hero-title">One trusted name.<br /><em>Five ways to help.</em></h1>
+          <p class="hero-lede">
+            From home plans and real estate to prepared meals, notarization, and
+            technology, find the right Emory service in seconds.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#finder">
+              Find my service
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+            </a>
+            <a class="button button-quiet" href="#services">Explore all five</a>
+          </div>
+        </div>
+
+        <div class="hero-orbit" aria-label="Our five services">
+          <div class="orbit-center">
+            <span class="orbit-monogram">ES</span>
+            <small>Established<br />to serve</small>
+          </div>
+          <div class="orbit-item orbit-designs"><span>01</span>Designs</div>
+          <div class="orbit-item orbit-realty"><span>02</span>Realty</div>
+          <div class="orbit-item orbit-kitchen"><span>03</span>Kitchen</div>
+          <div class="orbit-item orbit-notary"><span>04</span>Notary</div>
+          <div class="orbit-item orbit-tech"><span>05</span>Technology</div>
+        </div>
+
+        <div class="hero-proof" aria-label="Emory Services values">
+          <div><strong>5</strong><span>Specialized services</span></div>
+          <div><strong>1</strong><span>Simple starting point</span></div>
+          <div><strong>Local</strong><span>Personal support</span></div>
+        </div>
+      </section>
+
+      <section class="finder-section" id="finder" aria-labelledby="finder-title">
+        <div class="section-heading">
+          <p class="eyebrow dark"><span></span> Service finder</p>
+          <h2 id="finder-title">What can we help you with?</h2>
+          <p>Choose a goal and we will point you to the right place.</p>
+        </div>
+
+        <div class="finder-shell">
+          <div class="finder-options" role="tablist" aria-label="Choose your service">
+            <button class="finder-option is-active" role="tab" aria-selected="true" aria-controls="finder-panel" data-service="designs">
+              <span class="option-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 20h16M6 17V9l6-5 6 5v8M9 17v-5h6v5" /></svg>
+              </span>
+              <span><strong>Plan a home project</strong><small>Additions, remodels, or plans</small></span>
+              <svg class="option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+            </button>
+            <button class="finder-option" role="tab" aria-selected="false" aria-controls="finder-panel" data-service="realty">
+              <span class="option-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m3 11 9-7 9 7M5 10v10h14V10M9 20v-6h6v6" /></svg>
+              </span>
+              <span><strong>Buy or sell a home</strong><small>Personal real estate guidance</small></span>
+              <svg class="option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+            </button>
+            <button class="finder-option" role="tab" aria-selected="false" aria-controls="finder-panel" data-service="kitchen">
+              <span class="option-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 3v8M8 3v8M5 7h3M6.5 11v10M15 3c2 2 3 5 3 8v10M15 3v10h3" /></svg>
+              </span>
+              <span><strong>Order a prepared meal</strong><small>Comfort food, made with care</small></span>
+              <svg class="option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+            </button>
+            <button class="finder-option" role="tab" aria-selected="false" aria-controls="finder-panel" data-service="notary">
+              <span class="option-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 3h10l2 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l2-3ZM9 11l2 2 4-4" /></svg>
+              </span>
+              <span><strong>Notarize a document</strong><small>Professional, dependable service</small></span>
+              <svg class="option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+            </button>
+            <button class="finder-option" role="tab" aria-selected="false" aria-controls="finder-panel" data-service="tech">
+              <span class="option-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 5h16v11H4zM8 20h8M12 16v4M8 9h3M8 12h6" /></svg>
+              </span>
+              <span><strong>Solve a technology need</strong><small>IT, websites, cloud, and more</small></span>
+              <svg class="option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+            </button>
+          </div>
+
+          <article class="finder-result" id="finder-panel" role="tabpanel" tabindex="0" aria-live="polite">
+            <div class="result-watermark" aria-hidden="true">D</div>
+            <div class="result-topline">
+              <span class="result-number">01 / 05</span>
+              <span class="result-tag">Residential Design</span>
+            </div>
+            <div class="result-copy">
+              <p class="result-kicker">Your match</p>
+              <h3>Emory Services <em>Designs</em></h3>
+              <p class="result-description">
+                Thoughtful residential plans for additions, remodels, kitchens,
+                bathrooms, garages, decks, and more.
+              </p>
+              <ul class="result-features" aria-label="Featured services">
+                <li>Permit plan sets</li>
+                <li>Existing and as-built plans</li>
+                <li>Revision assistance</li>
+              </ul>
+            </div>
+            <a class="result-link" href="https://designs.emory.services" target="_blank" rel="noopener noreferrer">
+              Visit Emory Services Designs
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="services-section" id="services" aria-labelledby="services-title">
+        <div class="section-heading services-heading">
+          <div>
+            <p class="eyebrow dark"><span></span> The Emory family of services</p>
+            <h2 id="services-title">Distinct expertise.<br />One standard of care.</h2>
+          </div>
+          <p>
+            Each service has its own specialty and destination. Choose any card
+            to continue to that business.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <a class="service-card card-designs" href="https://designs.emory.services" target="_blank" rel="noopener noreferrer">
+            <span class="card-index">01</span>
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20h16M6 17V9l6-5 6 5v8M9 17v-5h6v5" /></svg></span>
+            <span class="card-content">
+              <small>Residential plans</small>
+              <strong>Emory Services<br /><em>Designs</em></strong>
+              <span>Clear, buildable plans for the home you have and the space you need.</span>
+            </span>
+            <span class="card-cta">Explore Designs <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></span>
+          </a>
+
+          <a class="service-card card-realty" href="https://missyemory.huff.com" target="_blank" rel="noopener noreferrer">
+            <span class="card-index">02</span>
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 11 9-7 9 7M5 10v10h14V10M9 20v-6h6v6" /></svg></span>
+            <span class="card-content">
+              <small>Real estate</small>
+              <strong>Missy Emory<br /><em>@ Huff Realty</em></strong>
+              <span>Personal guidance and clear communication for your next move.</span>
+            </span>
+            <span class="card-cta">Meet Missy <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></span>
+          </a>
+
+          <a class="service-card card-kitchen" href="https://kitchen.emory.services" target="_blank" rel="noopener noreferrer">
+            <span class="card-index">03</span>
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v8M8 3v8M5 7h3M6.5 11v10M15 3c2 2 3 5 3 8v10M15 3v10h3" /></svg></span>
+            <span class="card-content">
+              <small>Prepared meals</small>
+              <strong>Emory<br /><em>Kitchen Co.</em></strong>
+              <span>Comforting, chef-prepared meals made for a deliciously easy week.</span>
+            </span>
+            <span class="card-cta">See the Kitchen <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></span>
+          </a>
+
+          <a class="service-card card-notary" href="https://notary.emory.services" target="_blank" rel="noopener noreferrer">
+            <span class="card-index">04</span>
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h10l2 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l2-3ZM9 11l2 2 4-4" /></svg></span>
+            <span class="card-content">
+              <small>Notary service</small>
+              <strong>Emory<br /><em>Sign &amp; Seal</em></strong>
+              <span>Professional, dependable notarization when your documents matter.</span>
+            </span>
+            <span class="card-cta">Visit Sign &amp; Seal <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></span>
+          </a>
+
+          <a class="service-card card-tech" href="https://helpme.emorytech.us" target="_blank" rel="noopener noreferrer">
+            <span class="card-index">05</span>
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H4zM8 20h8M12 16v4M8 9h3M8 12h6" /></svg></span>
+            <span class="card-content">
+              <small>Technology solutions</small>
+              <strong>Emory<em>Tech</em></strong>
+              <span>Practical IT, cloud, websites, security, automation, and digital tools.</span>
+            </span>
+            <span class="card-cta">Explore EmoryTech <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <span class="brand-mark small" aria-hidden="true"><span>E</span><span>S</span></span>
+        <div><strong>Emory Services</strong><span>Built around real needs.</span></div>
+      </div>
+      <p>Five specialized services. One easy place to begin.</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
